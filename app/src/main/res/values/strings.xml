@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CameraAndPhotoDemo</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_recycle_view">RecycleView</string>
+</resources>

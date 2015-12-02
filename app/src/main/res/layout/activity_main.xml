@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_album"
+            android:text="相册"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_takePhoto"
+            android:text="拍照"
+            />
+
+        <Button
+            android:id="@+id/bt_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="课程表界面"/>
+
+        <Button
+            android:id="@+id/bt_recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecycleView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:text="返回的照片"/>
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/iv_photo"
+            android:background="@mipmap/default_load_bg"
+            android:scaleType="center"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+    </ScrollView>
